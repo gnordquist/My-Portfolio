@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- you header goes here, your name, "occupation", nav-->
+
+    <header>
+      <div class="header">
+        <h1>Gabrielle Nordquist</h1>
+        <h2>Software Developer<h2>
+          <nav>
+            <a href="#intro">Intro</a> |
+            <a href="#about">About</a> |
+            <a href="#contact">Contact</a>
+          </nav>
+      </div>
+    </header>
+
+    <!-- break line, next section is your "main" section -->
+
+    <main>
+      <div class="intro">
+        <img src="images/self.jpg" alt="A self-portrait"/> 
+        <h2 id="intro"> Hi! My name is Gabrielle Nordquist&#128075<!-- hand waving emoji--></h2>
+          <p><strong>I am an aspiring Software Engineer living in Sacramento, CA.</strong></p>
+          <p>As a manager in the retail industry, the introduction of new tech has opened my eyes to all of the possibilities 
+             there are within one of my newfound passions - Web Development. I only wish that I had realized this sooner!</p>
+        
+          <p><strong>As a future Software Engineer, I am interested in:</strong></p>
+          <ul>
+            <li>Being a part of something big.</li><br>
+            <!-- line breaks! (<br>)-->
+            <li>Networking and meeting lots of like-minded, and challenging individuals that encourage me to learn and grow.</li><br>
+            <li>Someday leading a team of eager Software Engineers, such as myself, to completing successful, and inspiring projects.</li>
+          </ul>
+          <p><strong>If you're looking to hire a new developer, please feel free to <a href="#contact">reach out</a>!</strong></p>
+      </div>
+      <!-- hr (horizontal rule) before the About section-->
+      <hr>
+      <article id="about">
+      <div class="about">
+        <h2>About Gabrielle</h2>
+        <p>I have worked in the retail industry for over 5 years. It has taught me a lot, and I was able to work
+           my way "up the food chain" so-to-speak, relatively quickly. Over 3 of the 5 or so years have been in 
+           a leadership role with a team under me. I loved this because I enjoy teaching and being able to rely 
+           on my team, and them on me. Working with others is truly gratifying, and has always been very rewarding- 
+           it is something I will always seek in a job of mine. However, I have come to realize that my current line
+           of work isn't stable, nor challenging enough, so I thought, how could I keep it as my career?</p>
+        <p>I decided that I wanted to be the student once again, and learn something <em>au courant</em>, something 
+           completely new and relevant, several months ago. My newfound passion for programming developed quickly, 
+           and I finally seem to have found a forever challenge in an ever-changing field that excites me.</p>
+         <!-- Thinkful link inside of this paragraph-->
+        <p>Insert <a href="https://www.thinkful.com" target="_blank"/>Thinkful</a>. After lots of research, wondering 
+           whether or not I should go back to school, I decided to attend a Bootcamp that will help to accelerate my 
+           learning, and in turn, fully introduce me into my new career. Now, with full confidence, I can say that I 
+           am on the path to becoming a successful Software Engineer!</p>
+      </div>
+      </article>
+      <!-- next section = Contact section, separate using <hr>-->
+      <!-- be sure to link you GitHub and LinkedIn-->
+      <hr>
+      <article id="contact">
+      <div class="contact">
+        <h2>Contact Me</h2>
+          <p>I'd love to hear from you! Please feel free to contact or follow me below:</p>
+          <ol>
+            <li><a href="https://github.com/gnordquist" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/gabrielle-nordquist-39207014a/" target="_blank">LinkedIn</a></li>
+          </ol>
+          <!-- iframe = embedded map from Google maps, pre-coded for your own convenience-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5639834516!2d-121.58299735848189!3d38.561
+         65047835169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento
+         %2C%20CA!5e0!3m2!1sen!2sus!4v1600663610372!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"
+         allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      </article>
+    </main>
+
+      <!-- final section, the footer-->
+      <!-- &copy will create the copyright symbol-->
+
+    <footer>
+      <div class="footer">
+        <h3>&copy Gabrielle Nordquist</h3>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
