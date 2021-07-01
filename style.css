@@ -3,9 +3,9 @@
 } /* goes at the beginning of all of your stylesheets for now*/
 
 /* styled psuedoclass links below*/
-a:link { color: #566573;}
-a:visited { color: black; }
-a:hover { color: #AEB6BF;}
+a:link { color: #AEB6BF;}
+a:visited { color: #80CBC4; }
+a:hover { color: #566573;}
 a:active { color:#80CBC4;}
 
 /* sets everything to "factory settings", code below will override if necessary*/
@@ -16,7 +16,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h1 { 
+h1 {
   font-size: 40px;
 }
 
@@ -31,6 +31,7 @@ h3 {
 p, ol, ul {
   padding: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 /* the box at the top */
@@ -41,7 +42,7 @@ header {
   letter-spacing: 2px;
   padding: 20px;
   height: 240px;
-  width: 100%;       
+  width: 100%;
 }
 
 header h2 {
@@ -56,12 +57,16 @@ nav {
   font-style: bold;
 }
 
-#intro, #about, #contact {
+#intro, #about, #projects, #contact {
   position: relative;
 }
 
 .intro {
   padding: 20px;
+}
+
+.images-self {
+  width: 400px;
 }
 
 intro, img {
